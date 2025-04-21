@@ -20,7 +20,8 @@ class RegisterController extends Controller
                 'confirmed'           
             ]
         ], [
-            'password.regex' => 'The password must contain at least one lowercase letter, one uppercase letter, one digit, and one special character (@$!%*#?&), and be at least 8 characters long.',
+            'password.regex' => 'The password must contain at least one lowercase letter, one uppercase letter, one digit, 
+            and one special character (@$!%*#?&), and be at least 8 characters long.',
             'password.min' => 'The password must be at least 8 characters.',
             'password.confirmed' => 'Password confirmation does not match.',
         ]);
